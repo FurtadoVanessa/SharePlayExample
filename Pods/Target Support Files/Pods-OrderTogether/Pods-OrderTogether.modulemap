@@ -1,0 +1,6 @@
+module Pods_OrderTogether {
+  umbrella header "Pods-OrderTogether-umbrella.h"
+
+  export *
+  module * { export * }
+}

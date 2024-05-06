@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EFE7D912BE19B2C00628610 /* OrderTogetherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7D902BE19B2C00628610 /* OrderTogetherApp.swift */; };
+		8E667D972BE941AC00B8EE51 /* ShoppingBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E667D962BE941AC00B8EE51 /* ShoppingBag.swift */; };
+		8E6A49572BE1A190007C1E6E /* OrderTogetherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A49562BE1A190007C1E6E /* OrderTogetherModel.swift */; };
+		8E6A497E2BE3EA1B007C1E6E /* OrderTogetherActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A497D2BE3EA1B007C1E6E /* OrderTogetherActivity.swift */; };
+		8E6A49802BE3EB86007C1E6E /* ShareItemsMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A497F2BE3EB86007C1E6E /* ShareItemsMessage.swift */; };
+		8E6A49822BE3ECAE007C1E6E /* RemoveItemMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A49812BE3ECAE007C1E6E /* RemoveItemMessage.swift */; };
 		8EFE7D932BE19B2C00628610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7D922BE19B2C00628610 /* ContentView.swift */; };
 		8EFE7D952BE19B2E00628610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE7D942BE19B2E00628610 /* Assets.xcassets */; };
-		8EFE7D982BE19B2E00628610 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE7D972BE19B2E00628610 /* Preview Assets.xcassets */; };
-		8EFE7DA22BE19B2E00628610 /* OrderTogetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7DA12BE19B2E00628610 /* OrderTogetherTests.swift */; };
-		8EFE7DAC2BE19B2E00628610 /* OrderTogetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7DAB2BE19B2E00628610 /* OrderTogetherUITests.swift */; };
-		8EFE7DAE2BE19B2E00628610 /* OrderTogetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7DAD2BE19B2E00628610 /* OrderTogetherUITestsLaunchTests.swift */; };
+		8EFE7DBD2BE19BBF00628610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7DBC2BE19BBF00628610 /* AppDelegate.swift */; };
+		8EFE7DBF2BE19C1300628610 /* OrderTogetherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7DBE2BE19C1300628610 /* OrderTogetherView.swift */; };
+		8EFE7DC12BE19C4B00628610 /* OrderTogetherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE7DC02BE19C4B00628610 /* OrderTogetherViewController.swift */; };
+		AFF97173FECA0B772A33AD48 /* libPods-OrderTogether.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A5E286DD82CE1D55F328F0 /* libPods-OrderTogether.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +38,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		252223F5E359795861815E38 /* Pods-OrderTogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderTogether.release.xcconfig"; path = "Target Support Files/Pods-OrderTogether/Pods-OrderTogether.release.xcconfig"; sourceTree = "<group>"; };
+		39A5E286DD82CE1D55F328F0 /* libPods-OrderTogether.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrderTogether.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5515DB0AB7AD95CAFB374882 /* Pods-OrderTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderTogether.debug.xcconfig"; path = "Target Support Files/Pods-OrderTogether/Pods-OrderTogether.debug.xcconfig"; sourceTree = "<group>"; };
+		8E667D962BE941AC00B8EE51 /* ShoppingBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBag.swift; sourceTree = "<group>"; };
+		8E6A49562BE1A190007C1E6E /* OrderTogetherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherModel.swift; sourceTree = "<group>"; };
+		8E6A495A2BE3DB5E007C1E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E6A497D2BE3EA1B007C1E6E /* OrderTogetherActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherActivity.swift; sourceTree = "<group>"; };
+		8E6A497F2BE3EB86007C1E6E /* ShareItemsMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareItemsMessage.swift; sourceTree = "<group>"; };
+		8E6A49812BE3ECAE007C1E6E /* RemoveItemMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveItemMessage.swift; sourceTree = "<group>"; };
+		8E6A49832BE43660007C1E6E /* OrderTogether.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrderTogether.entitlements; sourceTree = "<group>"; };
 		8EFE7D8D2BE19B2C00628610 /* OrderTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EFE7D902BE19B2C00628610 /* OrderTogetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherApp.swift; sourceTree = "<group>"; };
 		8EFE7D922BE19B2C00628610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EFE7D942BE19B2E00628610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EFE7D972BE19B2E00628610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EFE7D9D2BE19B2E00628610 /* OrderTogetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderTogetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EFE7DA12BE19B2E00628610 /* OrderTogetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherTests.swift; sourceTree = "<group>"; };
 		8EFE7DA72BE19B2E00628610 /* OrderTogetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderTogetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EFE7DAB2BE19B2E00628610 /* OrderTogetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherUITests.swift; sourceTree = "<group>"; };
-		8EFE7DAD2BE19B2E00628610 /* OrderTogetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EFE7DBC2BE19BBF00628610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EFE7DBE2BE19C1300628610 /* OrderTogetherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherView.swift; sourceTree = "<group>"; };
+		8EFE7DC02BE19C4B00628610 /* OrderTogetherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTogetherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF97173FECA0B772A33AD48 /* libPods-OrderTogether.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +84,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1954163B7B1686700174DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A5E286DD82CE1D55F328F0 /* libPods-OrderTogether.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5421BD89F00A44D86B303591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5515DB0AB7AD95CAFB374882 /* Pods-OrderTogether.debug.xcconfig */,
+				252223F5E359795861815E38 /* Pods-OrderTogether.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8EFE7D842BE19B2B00628610 = {
 			isa = PBXGroup;
 			children = (
 				8EFE7D8F2BE19B2C00628610 /* OrderTogether */,
-				8EFE7DA02BE19B2E00628610 /* OrderTogetherTests */,
-				8EFE7DAA2BE19B2E00628610 /* OrderTogetherUITests */,
 				8EFE7D8E2BE19B2C00628610 /* Products */,
+				5421BD89F00A44D86B303591 /* Pods */,
+				2B1954163B7B1686700174DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,37 +124,20 @@
 		8EFE7D8F2BE19B2C00628610 /* OrderTogether */ = {
 			isa = PBXGroup;
 			children = (
-				8EFE7D902BE19B2C00628610 /* OrderTogetherApp.swift */,
+				8E6A49832BE43660007C1E6E /* OrderTogether.entitlements */,
+				8E6A495A2BE3DB5E007C1E6E /* Info.plist */,
 				8EFE7D922BE19B2C00628610 /* ContentView.swift */,
 				8EFE7D942BE19B2E00628610 /* Assets.xcassets */,
-				8EFE7D962BE19B2E00628610 /* Preview Content */,
+				8EFE7DBC2BE19BBF00628610 /* AppDelegate.swift */,
+				8EFE7DBE2BE19C1300628610 /* OrderTogetherView.swift */,
+				8EFE7DC02BE19C4B00628610 /* OrderTogetherViewController.swift */,
+				8E6A49562BE1A190007C1E6E /* OrderTogetherModel.swift */,
+				8E6A497D2BE3EA1B007C1E6E /* OrderTogetherActivity.swift */,
+				8E6A497F2BE3EB86007C1E6E /* ShareItemsMessage.swift */,
+				8E6A49812BE3ECAE007C1E6E /* RemoveItemMessage.swift */,
+				8E667D962BE941AC00B8EE51 /* ShoppingBag.swift */,
 			);
 			path = OrderTogether;
-			sourceTree = "<group>";
-		};
-		8EFE7D962BE19B2E00628610 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8EFE7D972BE19B2E00628610 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8EFE7DA02BE19B2E00628610 /* OrderTogetherTests */ = {
-			isa = PBXGroup;
-			children = (
-				8EFE7DA12BE19B2E00628610 /* OrderTogetherTests.swift */,
-			);
-			path = OrderTogetherTests;
-			sourceTree = "<group>";
-		};
-		8EFE7DAA2BE19B2E00628610 /* OrderTogetherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8EFE7DAB2BE19B2E00628610 /* OrderTogetherUITests.swift */,
-				8EFE7DAD2BE19B2E00628610 /* OrderTogetherUITestsLaunchTests.swift */,
-			);
-			path = OrderTogetherUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFE7DB12BE19B2E00628610 /* Build configuration list for PBXNativeTarget "OrderTogether" */;
 			buildPhases = (
+				1B75FF4B6395137AEBEAEED8 /* [CP] Check Pods Manifest.lock */,
 				8EFE7D892BE19B2C00628610 /* Sources */,
 				8EFE7D8A2BE19B2C00628610 /* Frameworks */,
 				8EFE7D8B2BE19B2C00628610 /* Resources */,
@@ -231,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFE7D982BE19B2E00628610 /* Preview Assets.xcassets in Resources */,
 				8EFE7D952BE19B2E00628610 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +265,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B75FF4B6395137AEBEAEED8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrderTogether-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EFE7D892BE19B2C00628610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E667D972BE941AC00B8EE51 /* ShoppingBag.swift in Sources */,
+				8EFE7DBD2BE19BBF00628610 /* AppDelegate.swift in Sources */,
+				8E6A49572BE1A190007C1E6E /* OrderTogetherModel.swift in Sources */,
+				8E6A49802BE3EB86007C1E6E /* ShareItemsMessage.swift in Sources */,
 				8EFE7D932BE19B2C00628610 /* ContentView.swift in Sources */,
-				8EFE7D912BE19B2C00628610 /* OrderTogetherApp.swift in Sources */,
+				8E6A49822BE3ECAE007C1E6E /* RemoveItemMessage.swift in Sources */,
+				8EFE7DBF2BE19C1300628610 /* OrderTogetherView.swift in Sources */,
+				8EFE7DC12BE19C4B00628610 /* OrderTogetherViewController.swift in Sources */,
+				8E6A497E2BE3EA1B007C1E6E /* OrderTogetherActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFE7DA22BE19B2E00628610 /* OrderTogetherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFE7DAC2BE19B2E00628610 /* OrderTogetherUITests.swift in Sources */,
-				8EFE7DAE2BE19B2E00628610 /* OrderTogetherUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,26 +458,29 @@
 		};
 		8EFE7DB22BE19B2E00628610 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5515DB0AB7AD95CAFB374882 /* Pods-OrderTogether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrderTogether/OrderTogether.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OrderTogether/Preview Content\"";
-				DEVELOPMENT_TEAM = 29T8YL6VH9;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = VP83767PVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = OrderTogether/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cgvsolutions.OrderTogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgvsolutions.ordertogetherexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,26 +490,29 @@
 		};
 		8EFE7DB32BE19B2E00628610 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252223F5E359795861815E38 /* Pods-OrderTogether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrderTogether/OrderTogether.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OrderTogether/Preview Content\"";
-				DEVELOPMENT_TEAM = 29T8YL6VH9;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = VP83767PVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = OrderTogether/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cgvsolutions.OrderTogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgvsolutions.ordertogetherexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

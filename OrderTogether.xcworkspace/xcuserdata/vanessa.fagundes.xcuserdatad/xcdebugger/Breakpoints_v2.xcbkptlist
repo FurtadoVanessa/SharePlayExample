@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7882D474-2172-4A09-9316-4EEABC51C2C7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AD2827F-7E42-43D3-A451-D7B71592A5F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OrderTogether/OrderTogetherModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "manageSessions()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AD2827F-7E42-43D3-A451-D7B71592A5F0 - fb04c5a5c8fcc828"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in OrderTogether.OrderTogetherModel.manageSessions() -&gt; ()"
+                  moduleName = "OrderTogether"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vanessa.fagundes/Documents/SharePlayExample/OrderTogether/OrderTogether/OrderTogetherModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "8AD2827F-7E42-43D3-A451-D7B71592A5F0 - ce0a3cca7d19f577"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in OrderTogether.OrderTogetherModel.manageSessions() -&gt; ()"
+                  moduleName = "OrderTogether"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vanessa.fagundes/Documents/SharePlayExample/OrderTogether/OrderTogether/OrderTogetherModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "8AD2827F-7E42-43D3-A451-D7B71592A5F0 - c5bcdebfec110faa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in OrderTogether.OrderTogetherModel.manageSessions() -&gt; ()"
+                  moduleName = "OrderTogether"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vanessa.fagundes/Documents/SharePlayExample/OrderTogether/OrderTogether/OrderTogetherModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "8AD2827F-7E42-43D3-A451-D7B71592A5F0 - c5bcdebfec110faa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in OrderTogether.OrderTogetherModel.manageSessions() -&gt; ()"
+                  moduleName = "OrderTogether"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vanessa.fagundes/Documents/SharePlayExample/OrderTogether/OrderTogether/OrderTogetherModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D716D9C1-8E55-485C-87D6-CA27995511D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OrderTogether/OrderTogetherModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "manageSessions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
